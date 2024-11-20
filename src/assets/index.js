@@ -27,6 +27,12 @@ import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 
 import carrent from "./carrent.png";
+import peshnyar from "./peshnyar.png";
+import mui from "./mui.png";
+import typing from "./typing.png";
+import dashboard from "./dashboard.png";
+import ecommerce from "./e-commerce.png";
+import plenum from "./plenum.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
@@ -59,4 +65,10 @@ export {
   carrent,
   jobit,
   tripguide,
+  plenum,
+  dashboard,
+  ecommerce,
+  typing,
+  mui,
+  peshnyar,
 };

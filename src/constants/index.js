@@ -13,16 +13,17 @@ import {
   nodejs,
   mongodb,
   git,
-  figma,
-  docker,
   meta,
   starbucks,
   tesla,
   shopify,
-  carrent,
-  jobit,
-  tripguide,
+  plenum,
+  dashboard,
+  ecommerce,
+  typing,
   threejs,
+  mui,
+  peshnyar,
 } from "../assets";
 
 export const navLinks = [
@@ -45,18 +46,13 @@ const services = [
     title: "Web Developer",
     icon: web,
   },
+ 
   {
-    title: "React Native Developer",
-    icon: mobile,
-  },
-  {
-    title: "Backend Developer",
+    title: "Frontend Developer",
     icon: backend,
   },
-  {
-    title: "Content Creator",
-    icon: creator,
-  },
+ 
+ 
 ];
 
 const technologies = [
@@ -104,23 +100,27 @@ const technologies = [
     name: "git",
     icon: git,
   },
-  {
-    name: "figma",
-    icon: figma,
-  },
-  {
-    name: "docker",
-    icon: docker,
-  },
 ];
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
+    title: "Next.js Developer",
+    company_name: "Plenum for Ceramic",
     icon: starbucks,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    points: [
+      "Developing a dynamic and visually appealing front-end application using Next.jswith smooth animations for text and gallery appearances as part of my internship at (Gigant Technology).",
+      "Implementing modern scrolling effects and creating an interactive image slider with a focus on user engagement.",
+      "Collaborating with designers and other developers to deliver a sleek, high-performance, and user-friendly website.",
+      "Designing and building features to view project collections and detailed single project pages seamlessly.",
+    ],
+  },
+  {
+    title: "Full Stack Developer",
+    company_name: "Real Estate Erbil",
+    icon: tesla,
+    iconBg: "#E6DEDD",
+
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -129,42 +129,28 @@ const experiences = [
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    title: "React.js Developer",
+    company_name: "Tasty Bites App",
+    icon: shopify,
+    iconBg: "#383E56", 
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developing and maintaining a modern, responsive food ordering application using React.js and related technologies.",
+      "Creating key features such as viewing the menu, adding items to a cart, user registration, and secure login functionality.",
+      "Collaborating with cross-functional teams to ensure a sleek, user-friendly design and intuitive user experience.",
+      "Implementing advanced features like item quantity adjustment, search and filter options, and seamless integration with a delivery service.",
     ],
   },
   {
     title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
+    company_name: "E-commerce Website",
     icon: meta,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+ 
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developing a modern e-commerce platform with a Next.js and TypeScript front-end, fetching dynamic data from a CMS-based back-end.",
+      "Implementing advanced product filtering, search functionality, and sorting by availability, quantity, and price.",
+      "Collaborating with back-end developers to integrate CMS features for streamlined content management.",
+      "Continuously optimizing performance to provide fast loading times and smooth navigation.",
     ],
   },
 ];
@@ -198,16 +184,16 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Plenum",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Web-based platform designed to showcase ceramic art and projects as an internship in gigant technology, featuring dynamic galleries, smooth animations, and interactive image sliders. It allows users to explore collections, view individual projects in detail, and experience a modern, responsive design that highlights the artistry and craftsmanship of ceramics.",
     tags: [
       {
-        name: "react",
+        name: "next.js",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "framer motion",
         color: "green-text-gradient",
       },
       {
@@ -215,50 +201,109 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: plenum,
+    source_code_link: "https://github.com/Amanj01/Plenum2",
   },
   {
-    name: "Job IT",
+    name: "Dashboard",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "A modern web platform built with Next.js, featuring secure authentication, user management, role-based access control, and responsive design. Supports adding, updating, and soft-deleting users, products, and categories, with dynamic product galleries linked by product ID for enhanced content management.",
     tags: [
       {
-        name: "react",
+        name: "next.js",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "mongodb",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "express.js",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: dashboard,
+    source_code_link: "https://github.com/Amanj01/Dashboard",
   },
   {
-    name: "Trip Guide",
+    name: "E-commerce",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Developing a responsive e-commerce website using Next.js and TypeScript, integrated with a CMS for dynamic data management. Features include advanced product filtering, search, and sorting by availability, quantity. Collaborating with back-end developers to optimize CMS integration, ensuring fast performance.",
     tags: [
       {
         name: "nextjs",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "tailwind",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "convex",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: ecommerce,
+    source_code_link: "https://github.com/Amanj01/ecommerce-web",
+  },
+  {
+    name: "Typing game",
+    description:
+      "Building a multilingual typing platform with support for English, Arabic, and Kurdish. Features multiple game modes like Word Mode for individual words and Sentence Mode for full sentences, with time options for 30 or 60 seconds. mistake counter, accuracy percentage, and detailed letter analysis. Designed with light and dark themes for seamless switching and a user-friendly experience.",
+    tags: [
+      {
+        name: "next.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "green-text-gradient",
+      },
+    ],
+    image: typing,
+    source_code_link: "https://github.com/Amanj01/Typing-game",
+  },
+  {
+    name: "MUI dashboard",
+    description:
+      "Developing a high-performance admin panel using Material UI (MUI) and Vite, designed for efficient user management, report scheduling, and data visualization. Features include adding, editing, and deleting users, automated report scheduling, and interactive chart visualizations powered by Nivo. Built with React and optimized for responsiveness and seamless navigation using React Router. Focused on delivering a fast.",
+    tags: [
+      {
+        name: "react.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "MUI",
+        color: "green-text-gradient",
+      },
+    ],
+    image: mui,
+    source_code_link: "https://github.com/Amanj01/Typing-game",
+  },
+  {
+    name: "Peshnyar",
+    description:
+      "Developing a responsive platform to deliver personalized recommendations using React.js and Tailwind CSS for the front-end. Building scalable server-side applications with Node.js and Express.js, while managing robust data storage with MongoDB. Combining technology and creativity to create an engaging user experience, ensuring accurate and enjoyable recommendations.",
+    tags: [
+      {
+        name: "react.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "green-text-gradient",
+      },
+      {
+        name: "express.js",
+        color: "gnk-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "gnk-text-gradient",
+      },
+    ],
+    image: peshnyar,
+    source_code_link: "https://github.com/Amanj01/Typing-game",
   },
 ];
 
