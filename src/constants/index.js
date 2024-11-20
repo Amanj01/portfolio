@@ -278,7 +278,7 @@ const projects = [
       },
     ],
     image: mui,
-    source_code_link: "https://github.com/Amanj01/Typing-game",
+    source_code_link: "https://github.com/Amanj01/admin-panel_MUI",
   },
   {
     name: "Peshnyar",
@@ -303,7 +303,7 @@ const projects = [
       },
     ],
     image: peshnyar,
-    source_code_link: "https://github.com/Amanj01/Typing-game",
+    source_code_link: "https://github.com/Amanj01/Peshnyar-",
   },
 ];
 
